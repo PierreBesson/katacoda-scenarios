@@ -1,13 +1,18 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "Getting started with JHipster",
+  "description": "Setting up your environment and generating your first app",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
+      "title": "Setting up your environment",
+      "text": "setup.md"
+      },
+      {
+        "title": "Generating your first app",
+        "text": "generate.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
@@ -18,9 +23,9 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive JHIpster Terminal.\r\n"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "node6"
   }
 }
